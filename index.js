@@ -9,7 +9,6 @@ class TeaDogs {
       console.log(`Brewing a delightful cup of ${this.teaType} tea.`);
       setTimeout(() => {
         this.isBrewed = true;
-        console.log(`Your soothing ${this.teaType} tea is ready to be enjoyed with your tea dogs!`);
       }, 4000); // Simulate a 4-second brewing time
     }
   
